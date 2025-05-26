@@ -1,0 +1,29 @@
+MyMealSaver – Week 2 Progress Report
+Student: Clark Pettigrew
+
+Progress Summary:
+- Planned layout for 5 core pages:
+  1. Login
+  2. Register
+  3. Home (Recipe list)
+  4. Add Recipe
+  5. Edit Recipe
+- Sketched user flow and database structure
+- Created MySQL table plans for `users` and `recipes`
+- Set up GitHub repository
+- Created a GitHub release tag for Phase#1
+- No code yet, but everything is prepared for development next week
+
+Tools:
+- VS Code (planned)
+- XAMPP (installed and ready)
+- GitHub (repo and tag created)
+- phpMyAdmin (database design ready)
+
+GitHub URL:
+https://github.com/bkappa/MyMealSaver/releases/tag/Phase%231
+
+Next Steps:
+- Begin coding core HTML/PHP pages
+- Build login system and connect to MySQL
+- Add recipe form and user session tracking
