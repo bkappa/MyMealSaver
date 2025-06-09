@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+body {
+  margin: 0;
+  padding: 40px 20px;
+  font-family: 'Comic Neue', cursive;
+  background: url('close-up-detailed-paper-texture.jpg') no-repeat center center fixed;
+  background-size: cover;
+  cursor: url('pencil_2606509.png'), auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logout {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 20px;
+  align-self: flex-start;
+}
+
+h1, h2 {
+  text-align: center;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 2px #fff;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 10px 0 20px 0;
+}
+
+.recipes-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 25px 0;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.recipe-item {
+  text-align: left;
+}
+
+.recipe-item p {
+  margin: 10px 0;
+}
+
+.recipe-actions {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.recipe-item a {
+  margin: 0 15px;
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.recipe-item a:hover {
+  text-decoration: underline;
+}
+
+.recipe-item hr {
+  margin: 15px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.add-card {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.add-form input,
+.add-form textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 1.1em;
+  box-sizing: border-box;
+}
+
+.add-form button {
+  padding: 12px 30px;
+  background-color: #fdd835;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.add-form button:hover {
+  background-color: #ffeb3b;
+}
